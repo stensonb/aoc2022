@@ -1,2 +1,2 @@
 run:
-	cat day1input.txt | go run main.go
+	cat input.txt | go run main.go
