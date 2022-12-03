@@ -40,7 +40,7 @@ func (r *Rucksack) ValueOfMisplacedItem() (int, error) {
 	if val >= 'a' && val <= 'z' {
 		return val - 'a' + 1, nil
 	}
-	// a = 1 ... z = 27
+	// A = 27 ... Z = 52
 	if val >= 'A' && val <= 'Z' {
 		return val - 'A' + 27, nil
 	}
